@@ -1,0 +1,21 @@
+{
+  "name": "patryqhyper/nertivia-php-wrapper",
+  "description": "PHP wrapper for Nertivia's API",
+  "license": "MIT",
+  "type":"library",
+  "authors": [
+    {
+      "name": "PatryQHyper",
+      "email": "vizauerp@gmail.com"
+    }
+  ],
+  "require": {
+    "guzzlehttp/guzzle": "^7.0",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "PatryQHyper\\Nertivia\\": "src/"
+    }
+  }
+}
